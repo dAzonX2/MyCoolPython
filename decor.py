@@ -12,5 +12,4 @@ def benchmark(func):
 def fetch_webpage():
     import requests
     webpage = requests.get('https://google.com')
-
 fetch_webpage()
